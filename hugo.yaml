@@ -1,137 +1,40 @@
 baseURL: "https://classicalguitaranacortes.com"
 title: "William Bajzek"
-theme: hugo-profile
+theme: hugo-scroll
 
-outputs:
-  home:
-    - "HTML"
-    - "RSS"
-    - "JSON"
-  page:
-    - "HTML"
-    - "RSS"
+disableKinds: ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
-enableRobotsTXT: true
-
-pagination:
-  pagerSize: 3
+enableEmoji: true
 
 markup:
   goldmark:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: lessons
-      name: Lessons
-      title: Guitar Lessons
-      url: /lessons
-      weight: 1
-    - identifier: shop
-      name: Sheet Music
-      title: Sheet Music
-      url: /shop
-      weight: 2
-    - identifier: irish-flute
-      name: Irish Flute
-      title: Irish Flute
-      url: /irish-flute
-      weight: 3
-    - identifier: glissant
-      name: Electronic Music
-      title: Glissant — Electronic Music
-      url: /glissant
-      weight: 4
-
 params:
+  favicon: "images/favicon.png"
   title: "William Bajzek"
   description: "Classical guitarist, composer, and arranger based in Anacortes, WA"
-  favicon: "/images/favicon.png"
-
-  useBootstrapCDN: false
-  animate: true
-
-  navbar:
-    align: ms-auto
-    brandName: "William Bajzek"
-    disableSearch: true
-    stickyNavBar:
-      enable: true
-      showOnScrollUp: true
-    enableSeparator: false
-    menus:
-      disableAbout: false
-      disableExperience: true
-      disableEducation: true
-      disableProjects: true
-      disableAchievements: true
-      disableContact: false
-
-  hero:
-    enable: true
-    intro: "Hi, I'm"
-    title: "William Bajzek."
-    subtitle: "Classical guitarist, composer, and arranger"
-    content: "Based in Anacortes, WA — I perform, teach, compose, and arrange for classical guitar. I also play traditional Irish flute and create electronic music under the name Glissant."
-    image: /images/hero.jpg
-    bottomImage:
-      enable: true
-    button:
-      enable: false
-    socialLinks:
-      fontAwesomeIcons:
-        - icon: fab fa-bandcamp
-          url: https://glissant.bandcamp.com
-        - icon: fa fa-envelope
-          url: mailto:williambajzek+website@gmail.com
-
-  about:
-    enable: true
-    title: "About"
-    image: "/images/me.jpg"
-    content: |-
-      While working as a software engineer in Silicon Valley, I studied classical guitar at DeAnza College, performed in masterclasses with many fine guitarists from around the world, and gigged regularly. After moving to Skagit Valley in 2009, I gave solo and duo house concerts and recitals with my wife, pianist Angeline LeLeux-Bajzek, as well as performing as a duo with another local guitarist.
-
-      Later, we relocated to Tulsa, OK, for family reasons. During this time, I taught a few students and occasionally performed duo concerts with Angeline, but my primary focus returned to my day job as a software engineer, manager, and mentor.
-
-      Now, back in beautiful Anacortes, I am enjoying dedicating my time to classical guitar practice, composition, and arrangements. When not playing guitar, you can find me hiking in Washington Park, playing traditional Irish dance music on wooden flute at local sessions, or rowing with O.A.R.S.
-    skills:
-      enable: false
-
-  experience:
-    enable: false
-
-  education:
-    enable: false
-
-  achievements:
-    enable: false
-
-  projects:
-    enable: false
-
-  contact:
-    enable: true
-    content: "Whether you're interested in lessons, booking a performance, or just want to get in touch — my inbox is always open."
-    btnName: "Email me"
-    btnLink: mailto:williambajzek+website@gmail.com
+  hidedesignbyline: true
+  title_guard: true
 
   footer:
-    recentPosts:
-      enable: false
+    showContactIcons: true
+    showFooterLinks: false
 
-  listPages:
-    disableFeaturedImage: false
+  contacts:
+    - label: "Email"
+      value: "williambajzek+guitar@gmail.com"
+      url: "mailto:williambajzek+guitar@gmail.com"
+      icon: "fa fa-envelope"
 
-  singlePages:
-    socialShare: false
-    readTime:
-      enable: false
-    scrollprogress:
-      enable: true
-
-  datesFormat:
-    article: "Jan 2, 2006"
-    articleList: "Jan 2, 2006"
-    articleRecent: "Jan 2, 2006"
+menu:
+  main:
+    - identifier: irish-flute
+      name: Irish Flute
+      url: /irish-flute
+      weight: 10
+    - identifier: glissant
+      name: Electronic Music
+      url: /glissant
+      weight: 11

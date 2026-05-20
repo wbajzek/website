@@ -1,14 +1,10 @@
 ---
-title: "Guitar Lessons"
-date: 2024-01-01
-draft: false
+title: "Lessons"
+weight: 2
+header_menu: true
 ---
 
-## Classical Guitar Lessons in Anacortes, WA
-
 I offer private classical guitar lessons for students of all levels, from absolute beginners to advanced players working on technique and repertoire.
-
-### What we can work on
 
 - Fundamentals of classical guitar technique
 - Musicality
@@ -21,7 +17,5 @@ I offer private classical guitar lessons for students of all levels, from absolu
 - How to record yourself
 - Music notation using MuseScore or Dorico
 - Nail care
-
-### Get in touch
 
 [Email me](mailto:williambajzek+website@gmail.com) to schedule a lesson or ask any questions.
