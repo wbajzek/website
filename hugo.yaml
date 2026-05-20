@@ -1,0 +1,72 @@
+baseURL: "https://classicalguitaranacortes.com"
+title: "William Bajzek"
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+
+pagination:
+  pagerSize: 10
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - identifier: lessons
+      name: Lessons
+      url: /lessons
+      weight: 1
+    - identifier: shop
+      name: Sheet Music
+      url: /shop
+      weight: 2
+    - identifier: irish-flute
+      name: Irish Flute
+      url: /irish-flute
+      weight: 3
+    - identifier: glissant
+      name: Electronic Music
+      url: /glissant
+      weight: 4
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  disableThemeToggle: false
+
+  profileMode:
+    enabled: true
+    title: "William Bajzek"
+    subtitle: |
+      Classical guitarist, composer, and arranger based in Anacortes, WA.
+      I perform, teach, compose, and arrange for classical guitar.
+      I also play traditional Irish flute and create electronic music under the name [Glissant](https://glissant.bandcamp.com).
+    imageUrl: "/images/me.jpg"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: "William Bajzek"
+    buttons:
+      - name: Lessons
+        url: /lessons
+      - name: Sheet Music
+        url: /shop
+
+  socialIcons:
+    - name: bandcamp
+      title: Glissant on Bandcamp
+      url: https://glissant.bandcamp.com
+    - name: email
+      title: Email
+      url: mailto:williambajzek@gmail.com
+
+  label:
+    text: "William Bajzek"
+
+  assets:
+    favicon: "/images/favicon.png"
