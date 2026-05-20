@@ -63,7 +63,7 @@ params:
       url: https://glissant.bandcamp.com
     - name: email
       title: Email
-      url: mailto:williambajzek@gmail.com
+      url: mailto:williambajzek+website@gmail.com
 
   label:
     text: "William Bajzek"

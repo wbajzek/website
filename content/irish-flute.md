@@ -24,4 +24,4 @@ I have been playing Irish flute since 2004. I have learned directly from master 
 
 ## Castlerock
 
-Together with Angeline LeLeux-Bajzek, we perform as **Castlerock**. We are available for booking — [get in touch](mailto:williambajzek@gmail.com).
+Together with Angeline LeLeux-Bajzek, we perform as **Castlerock**. We are available for booking — [get in touch](mailto:williambajzek+website@gmail.com).

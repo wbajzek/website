@@ -24,4 +24,4 @@ I offer private classical guitar lessons for students of all levels, from absolu
 
 ### Get in touch
 
-[Email me](mailto:williambajzek@gmail.com) to schedule a lesson or ask any questions.
+[Email me](mailto:williambajzek+website@gmail.com) to schedule a lesson or ask any questions.
